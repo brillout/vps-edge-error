@@ -6,14 +6,14 @@ specifiers:
   solid-js: ^1.7.3
   vite: ^4.3.3
   vite-plugin-solid: ^2.7.0
-  vite-plugin-ssr: ^0.4.118
+  vite-plugin-ssr: 0.4.118-draft.60414
 
 dependencies:
   '@vercel/edge': 0.3.4
   solid-js: 1.7.3
   vite: 4.3.3
   vite-plugin-solid: 2.7.0_solid-js@1.7.3+vite@4.3.3
-  vite-plugin-ssr: 0.4.118_vite@4.3.3
+  vite-plugin-ssr: 0.4.118-draft.60414_vite@4.3.3
 
 devDependencies:
   '@edge-runtime/types': 2.0.8
@@ -1108,8 +1108,8 @@ packages:
       - supports-color
     dev: false
 
-  /vite-plugin-ssr/0.4.118_vite@4.3.3:
-    resolution: {integrity: sha512-L1t/4eGraa9wBfkt/EHvTm1l89CVCS1So9XfR7XfufA27WNxpRDD/EkYbd1pOIYMrE3aONNAQEZakVVzu0Xd1g==}
+  /vite-plugin-ssr/0.4.118-draft.60414_vite@4.3.3:
+    resolution: {integrity: sha512-qKQ+kYvPARIbtsRwrqPW8OEBv6Bztn54+OVQuo4IA/kcyTq4hM7lSH8yPqKu+LjjGGYRp40HKjqiDd/ZG+2S/A==}
     engines: {node: '>=12.19.0'}
     hasBin: true
     peerDependencies:
