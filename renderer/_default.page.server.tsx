@@ -37,7 +37,7 @@ async function render(pageContext: PageContext) {
         ${dangerouslySkipEscape(generateHydrationScript() || '')}
       </head>
       <body>
-        <div id="page-view">${app}</div>
+        <div id="page-view">${app || ''}</div>
       </body>
     </html>`;
 }
