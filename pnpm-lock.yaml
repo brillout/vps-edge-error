@@ -6,14 +6,14 @@ specifiers:
   solid-js: ^1.7.3
   vite: ^4.3.3
   vite-plugin-solid: ^2.7.0
-  vite-plugin-ssr: 0.4.118-draft.99838
+  vite-plugin-ssr: 0.4.118-draft.79254
 
 dependencies:
   '@vercel/edge': 0.3.4
   solid-js: 1.7.3
   vite: 4.3.3
   vite-plugin-solid: 2.7.0_solid-js@1.7.3+vite@4.3.3
-  vite-plugin-ssr: 0.4.118-draft.99838_vite@4.3.3
+  vite-plugin-ssr: 0.4.118-draft.79254_vite@4.3.3
 
 devDependencies:
   '@edge-runtime/types': 2.0.8
@@ -369,8 +369,8 @@ packages:
     resolution: {integrity: sha512-IxlOMD5gOM0WfFGdeR98jHKiC82Ad1tUnSjvLS5jnRkfMEKBI+YzHA32Umw8W3Ccp5N4fNEX229BW6RaRpxRWQ==}
     dev: false
 
-  /@brillout/picocolors/1.0.2:
-    resolution: {integrity: sha512-3nLSibUNMs6ou0A4p9X6kFnDTbfvcj8nPJuQCsD7hz9cws6IbIhLBoZ08u3c0EztyYbIi+pD2MGHCDU9N+VhWQ==}
+  /@brillout/picocolors/1.0.3:
+    resolution: {integrity: sha512-pVFNFiF5Qg6fJs/HLR5WXf7+4r2SsBj1Ef8iEvS0AYmY60kGVuACW5e8xPriu0gvN36qMfLDo16k47HelhMKpw==}
     dev: false
 
   /@brillout/vite-plugin-import-build/0.2.16:
@@ -1112,8 +1112,8 @@ packages:
       - supports-color
     dev: false
 
-  /vite-plugin-ssr/0.4.118-draft.99838_vite@4.3.3:
-    resolution: {integrity: sha512-z3whSgEzKZoSNPAxcVPF1dCQclMU7CXsJuu90Mo+xjAbsQGjXqyZGwUAUlCPaCDIoIee312PwWTOecz6N4Zr2Q==}
+  /vite-plugin-ssr/0.4.118-draft.79254_vite@4.3.3:
+    resolution: {integrity: sha512-bY6iDFu99VuTa7UHKtyinpRjzK0eIMNP/r5PaaSzll1tfz770/NcNiGwBaY3CJIS11yA+2CMiE0bwxYgrqd/PA==}
     engines: {node: '>=12.19.0'}
     hasBin: true
     peerDependencies:
@@ -1125,7 +1125,7 @@ packages:
     dependencies:
       '@brillout/import': 0.2.3
       '@brillout/json-serializer': 0.5.3
-      '@brillout/picocolors': 1.0.2
+      '@brillout/picocolors': 1.0.3
       '@brillout/vite-plugin-import-build': 0.2.16
       acorn: 8.8.2
       cac: 6.7.14
