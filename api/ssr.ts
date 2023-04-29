@@ -1,4 +1,4 @@
-import { renderPage } from "vite-plugin-ssr";
+import { renderPage } from "vite-plugin-ssr/server";
 import { RequestContext } from "@vercel/edge";
 
 export const config = {
@@ -10,7 +10,7 @@ export default async (request: Request, ctx: RequestContext) => {
   const { url } = request;
   console.log("Request to url:", url);
 
-  const pageContextInit = { url };
+  const pageContextInit = { urlOriginal: url };
   const pageContext = await renderPage(pageContextInit);
   const { httpResponse } = pageContext;
 
